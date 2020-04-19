@@ -12,4 +12,7 @@ int main()
 
 	int mul = a * b;
 	cout << mul;
+
+	int div = a / b;
+	cout <<div;
 }
