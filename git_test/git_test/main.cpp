@@ -9,4 +9,7 @@ int main()
 
 	int sub = a - b;
 	cout << sub;
+
+	int mul = a * b;
+	cout << mul;
 }
