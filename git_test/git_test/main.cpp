@@ -16,3 +16,6 @@ int main()
 	int div = a / b;
 	cout <<div;
 }
+void abc()
+{
+}
