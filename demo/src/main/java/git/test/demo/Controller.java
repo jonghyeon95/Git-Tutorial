@@ -9,9 +9,15 @@ public class Controller {
     @GetMapping("/")
     public String main(){
 
+        System.out.println("Controller.main");
         System.out.println("main이다");
 
         return "main";
+    }
+
+    @GetMapping("/dev")
+    public String dev(){
+        return "dev";
     }
 
 }
