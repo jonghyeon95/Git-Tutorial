@@ -20,4 +20,8 @@ public class Controller {
         return "dev";
     }
 
+    @GetMapping("/histroy")
+    public String history() {
+        return "history";
+    }
 }
