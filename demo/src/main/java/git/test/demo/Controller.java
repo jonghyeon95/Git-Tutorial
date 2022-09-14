@@ -20,4 +20,14 @@ public class Controller {
         return "dev";
     }
 
+    @GetMapping("/dev2")
+    public String dev2(){
+        return "dev";
+    }
+
+    @GetMapping("/dev3")
+    public String dev3(){
+        return "dev";
+    }
+
 }
