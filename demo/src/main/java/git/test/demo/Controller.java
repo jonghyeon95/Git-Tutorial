@@ -9,6 +9,7 @@ public class Controller {
     @GetMapping("/")
     public String main(){
 
+        System.out.println("Controller.main");
 
         return "main";
     }
