@@ -30,4 +30,9 @@ public class Controller {
         return "dev";
     }
 
+    @GetMapping("/hotfix")
+    public String hotfix(){
+        return "aaa";
+    }
+
 }
