@@ -13,4 +13,9 @@ public class Controller {
         return "main";
     }
 
+    @GetMapping("/dev")
+    public String dev(){
+        return "dev";
+    }
+
 }
