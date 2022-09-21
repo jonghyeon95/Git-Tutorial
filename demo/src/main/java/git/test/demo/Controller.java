@@ -35,4 +35,8 @@ public class Controller {
         return "aaa";
     }
 
+    @GetMapping("/def4")
+    public String def4(){
+        return "";
+    }
 }
